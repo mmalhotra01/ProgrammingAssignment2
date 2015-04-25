@@ -27,7 +27,7 @@
 cacheSolve <- function(x, ...) {
       m <- x$getCache() 
      if(!is.null(m)) { 
-	  message("getting cached data")
+	  message("Fetching Cached Data")
 	  return(m) 
       }
       data <- x$get()       
